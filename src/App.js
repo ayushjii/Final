@@ -5,7 +5,8 @@ import { Home } from "./components/Pages/Home";
 import { About } from "./components/Pages/About";
 import { Blog } from "./components/Pages/Blog";
 import { Contact } from "./components/Pages/Contact";
-import Footer from "./components/Footer"
+import { Footerm } from "./components/Footer";
+
 
 
  export default function App() {
@@ -20,7 +21,7 @@ import Footer from "./components/Footer"
             <Route path="/contact" element={<Contact/>} />
           </Routes>
         </div>
-        <Footer />
+        <Footerm/>
       </Router>
   );
 }

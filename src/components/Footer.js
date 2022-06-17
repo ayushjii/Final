@@ -1,15 +1,14 @@
 import React from "react";
+import GlobalStyles from "../styles/GlobalStyle";
+import Typography from "../styles/Typography";
+import FooterMain from "./FooterPart";
 
-
-export default function Footer() {
-    return(
-        <div>
-            <div className="conatainer">
-              <div className="footer__coli">
-               <h1 className="footer__coli_title">MOTIVATION</h1>
-               
-              </div>
-            </div>
-        </div>
-    );
-}
+export const Footerm = () => {
+  return (
+  <div>
+    <GlobalStyles />
+     <Typography />
+      <FooterMain />
+  </div>
+  );
+};
