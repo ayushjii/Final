@@ -3,8 +3,8 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+
 function NavBar() {
-  
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   return (

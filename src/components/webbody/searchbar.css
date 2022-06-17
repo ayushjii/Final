@@ -5,9 +5,9 @@ box-sizing:border-box;
 font-family:'Fira Sans',sans-serif;
 }
 
-body{
+/* body{
     background-color: #EEE;
-}
+} */
 
  .search-container{
     display:flex;
