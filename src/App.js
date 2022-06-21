@@ -5,8 +5,9 @@ import { Home } from "./components/Pages/Home";
 import { About } from "./components/Pages/About";
 import { Blog } from "./components/Pages/Blog";
 import { Contact } from "./components/Pages/Contact";
-import { Footerm } from "./components/Footer";
-
+import { Footer } from "./components/Footer";
+import Signin from "./components/Signin";
+import Signup from "./components/Signup.js";
 
 
  export default function App() {
@@ -19,9 +20,11 @@ import { Footerm } from "./components/Footer";
             <Route path="/about" element={<About/>} />
             <Route path="/blog" element={<Blog/>} />
             <Route path="/contact" element={<Contact/>} />
+            <Route path="/Signin" element={<Signin/>} />
+            <Route path="/Signup" element={<Signup/>} />
           </Routes>
         </div>
-        <Footerm/>
+        <Footer/>
       </Router>
   );
 }

@@ -3,7 +3,7 @@ import GlobalStyles from "../styles/GlobalStyle";
 import Typography from "../styles/Typography";
 import FooterMain from "./FooterPart";
 
-export const Footerm = () => {
+export const Footer = () => {
   return (
   <div>
     <GlobalStyles />

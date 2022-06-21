@@ -3,30 +3,20 @@ import "./Content.css";
 import Searchbar from "./webbody/Searchbar";
 import Carousel from "./webbody/Carousel";
 import Cards from "./webbody/Cards";
+import Signacc from "./webbody/Signin-up";
+
 
 function content() {
     return(
         <div>
-        <div>
+            <Signacc/>
             <Searchbar />
-        </div>
-        <div>
             <Cards/>
-        </div>
-
-        <div>
             <Carousel/>
-        </div>
-        <div>
-            table of 3 animation
-        </div>
-        <div>
-            add more items 
-        </div>
-        <div>
-            support us
-        </div>
 
+            table of 3 animation
+            add more items 
+            support us
         </div>
     );
 }

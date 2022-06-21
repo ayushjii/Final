@@ -6,7 +6,7 @@ export default function search(){
             <header>
                 <h1 className="hone">search bar</h1>
                 <form className="search-box">
-                    <input type="search"placeholder="What are you looking for?"/>
+                    <input type="search" placeholder="What are you looking for?"/>
                 </form>
                 <p>Search Results:0</p>
             </header>
@@ -17,7 +17,7 @@ export default function search(){
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.Porro,
                         reiciendis.
                     </p>
-                    <a href="#"> Read more </a>
+                    <a href="/"> Read more </a>
                 </div>
             </div>
         </div>

@@ -70,7 +70,7 @@ export default function ContactSection()  {
                  text="Delhi, India"
                   />
                </div>
-            <div className="right">
+              <div className="right">
                 <ContactForm />
               </div>
             </div>
