@@ -9,6 +9,13 @@ const d = new Date();
 const FooterStyle = styled.div`
   background-color: var(--deep-dark);
   padding-top: 10rem;
+  *{
+    font-family: 'RobotoMono Regular';
+    color: var(--gray-1);
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat SemiBold'
+  }
   .container {
     display: flex;
     gap: 3rem;

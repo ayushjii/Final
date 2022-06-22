@@ -1,48 +1,48 @@
 import React from "react";
-import {FaApple, FaFacebook, FaGoogle, FaInstagram, FaTwitter} from 'react-icons/fa';
-import "../components/Signin.css"
+import {FaApple, FaFacebook, FaGoogle, FaInstagramSquare, FaTwitter} from 'react-icons/fa';
+import "../components/Signin.css";
 
 export default function Signin(){
     return(
         <div className="sign_container">
         <div className="box box-one">
             <button>
-            <FaTwitter className="fab" />
-            Sign in with Twitter
+            <i className="col-twi"><FaTwitter /></i>
+            <span>Sign in with Twitter</span>
             </button>
             <button>
-            <FaGoogle className="fab"/>
-            Sign in with Google
+            <i className="col-goo"><FaGoogle /></i>
+            <span>Sign in with Google</span>
             </button>
             <button>
-            <FaApple className="fab" />
-            Sign in with Apple
+            <i className="col-app"><FaApple /></i>
+            <span>Sign in with Apple</span>
             </button>
             <button>
-            <FaFacebook className="fab"/>
-            Sign in with Facebook
+             <i className="col-face"><FaFacebook /></i>
+            <span>Sign in with Facebook</span>
             </button>
             <button>
-            <FaInstagram className="fab"/>
-            Sign in with Instagram
+            <i className="col-ig"><FaInstagramSquare /></i>
+            <span>Sign in with Instagram</span>
             </button>
-            
+        </div>
+        
             <div>
                 <h5>or</h5>
                 <div className="box box-two">
                  <form>
-                    <input type="text" placeholder="Username" />
-                    <input type="password" placeholder="Password" />
+                    <input  type="text" placeholder="Username" />
+                    <input  type="password" placeholder="Password" />
                  </form>
-                 <button className="next-btn">Next</button>
+                 <button type="submit" className="next-btn">Sign Up</button>
                  <button>Forgot password</button>
-                </div>
-            <p>
+                <p>
                 Don't have an acoount? 
-                <a href="/Signup">Sign up</a>
-            </p>
+                <a href={`/Signup`}>Sign up</a>
+                </p>
+                </div>
             </div>
-        </div>
         </div>
     );
 }

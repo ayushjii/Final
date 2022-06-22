@@ -9,11 +9,11 @@ export default function Signacc() {
         <div className="Sign"> 
           <div className="left-side">
           <h1>
-            Start Building Your Stunning Blogs
+            <b>Start Building Your Stunning Blogs</b>
           </h1>
-          <h3>TO Help Others </h3>
+          <h3>To Help Others </h3>
          <div className="btn">
-          <Link className="btnin" to={'/Signin'}> Signin </Link>
+          <Link className="btnin" to={`/Signin`}> Signin </Link>
           <Link className="btnup" to={`/Signup`}> Signup </Link>
          </div>
           </div>
