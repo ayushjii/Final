@@ -9,7 +9,8 @@ width: 100%;
     color: var(--gray-1);
   }
   h1,h2,h3,h4,h5,h6{
-    font-family: 'Montserrat SemiBold'
+    font-family: 'Montserrat SemiBold';
+    color: var(--gray-1);
   }
 .form-group{
     width:100%;

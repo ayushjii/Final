@@ -1,6 +1,7 @@
 import React from "react";
-import {FaApple, FaFacebook, FaGoogle, FaInstagramSquare, FaTwitter} from 'react-icons/fa';
+import {FaApple, FaFacebook, FaInstagramSquare, FaTwitter} from 'react-icons/fa';
 import "../components/Signin.css";
+import {FcGoogle} from 'react-icons/fc'
 
 export default function Signin(){
     return(
@@ -11,7 +12,7 @@ export default function Signin(){
             <span>Sign in with Twitter</span>
             </button>
             <button>
-            <i className="col-goo"><FaGoogle /></i>
+            <i className="col-goo"><FcGoogle /></i>
             <span>Sign in with Google</span>
             </button>
             <button>

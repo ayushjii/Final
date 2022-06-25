@@ -9,6 +9,14 @@ import styled from "styled-components";
 
 const SocialStyle = styled.div`
 padding-top:10rem;
+*{
+    font-family: 'RobotoMono Regular';
+    color: var(--gray-1);
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat SemiBold';
+    color: var(--gray-1);
+  }
 
 .icons{
   padding-top:8rem;
@@ -86,10 +94,10 @@ transition-duration: .75s ;
     outline-color: #a02d76;
 }
 @keyframes shake {
-  10%{transform: rotate(15deg);}
-  20%{transform: rotate(-15deg);}
-  30%{transform: rotate(15deg);}
-  40%{transform: rotate(-15deg);}
+  10%{transform: rotate(15 deg);}
+  20%{transform: rotate(-15 deg);}
+  30%{transform: rotate(15 deg);}
+  40%{transform: rotate(-15 deg);}
 }
 
 ${'' /* @media only screen and (max-width: 768px){
