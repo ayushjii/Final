@@ -67,7 +67,7 @@ export default function ContactSection()  {
                  text="akdnq@gmail.com"
                  />
                  <ContactInfoitem 
-                 text="Delhi, India"
+                 text="New Delhi, India"
                   />
                </div>
               <div className="right">
