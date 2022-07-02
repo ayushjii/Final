@@ -13,6 +13,7 @@
   left: 0;
   border-radius: 50%;
   outline: 2px solid #fff;
+  opacity: 0.2;
 }
 .carousel .slick-next {
      color: #fff;
@@ -22,6 +23,7 @@
   right: 0;
   border-radius: 50%;
   outline: 2px solid #fff;
+  opacity: 0.2;
 }
 .slick-prev::before,
 .slick-next::before {
@@ -31,6 +33,6 @@
 .carousel .slick-prev:hover{
   color: #fff;
   outline: 2px solid #fff;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
