@@ -2,29 +2,22 @@ import React from "react";
 import styled from "styled-components";
 
 const Slidercontent =styled.div`
-   
-.cards {
     width: 100%;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
     max-width: 820px;
-}
-${'' /* 
-.card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYtfZRhbGQtq2BapB2MXJfWIO2QriO5Wx3qQ&usqp=CAU');
-} */}
+    margin:4rem;
 
 .card__img {
   visibility: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 90%;
     height: 235px;
-  border-top-left-radius: 12px;
-border-top-right-radius: 12px;
+   border-radius:12px;
   
 }
 
@@ -34,34 +27,34 @@ border-top-right-radius: 12px;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-  position: absolute;
+    position: absolute;
     height: 235px;
-  border-top-left-radius: 12px;
-border-top-right-radius: 12px;
-top: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+    cursor: grab;
   
 }
 .card {
-  margin-right: 25px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
   background-color: #fff;
-    width: 33.3%;
+    width: 90%;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
 }
 .card:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
     transform: scale(1.10, 1.10);
 }
 
 .card__info {
-z-index: 2;
+  z-index: 2;
   background-color: #fff;
   border-bottom-left-radius: 12px;
-border-bottom-right-radius: 12px;
-   padding: 16px 24px 24px 24px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
 }
 
 .card__category {
@@ -70,7 +63,7 @@ border-bottom-right-radius: 12px;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
-  color: #868686;
+    color: #868686;
 }
 
 .card__title {
@@ -91,9 +84,9 @@ border-bottom-right-radius: 12px;
     color: #AD7D52;
 }
 
-.card:hover .card__img--hover {
+.card:hover .card__img--hover {  
     height: 100%;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .card:hover .card__info {
@@ -102,10 +95,12 @@ border-bottom-right-radius: 12px;
 }
 
 .card:hover .card__info-hover {
-    opacity: 1;
+        opacity: 1;
 }
-
-
+.card:hover .card__category,
+.card:hover .card__detail{
+  color:#fff;
+}
 `
 
 export default function CardStyles ({
@@ -116,11 +111,11 @@ export default function CardStyles ({
 }){
     return(
         <Slidercontent>
-         <section class="cards">
+         {/* <section class="cards"> */}
 <article class="card card--1">
   <div class="card__img"></div>
   <a href="/" class="card_link">
-     <img class="card__img--hover" src={CardImage} />
+     <img class="card__img--hover" src={CardImage}  alt=""/>
    </a>
   <div class="card__info">
     <span class="card__category">{CardSubheading}</span>
@@ -128,7 +123,7 @@ export default function CardStyles ({
 <span class="card__by card__detail" title="detail">{CardDetail}</span>
   </div>
 </article>
-</section>
+    {/* </section> */}
         </Slidercontent>
     );
 }

@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import {RiArrowRightSLine, RiArrowLeftSLine} from 'react-icons/ri';
 import './carousel.css';
 
+
 const PreviousBtn = (props) => {
   const { className, onClick } = props;
   return (
@@ -22,7 +23,8 @@ const NextBtn = (props) => {
 export default class HomeCarousel extends Component {
   render() {
     const settings = {
-      dots: true,
+      autoplay:true,
+      pauseOnFocus:true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -32,7 +34,7 @@ export default class HomeCarousel extends Component {
     };
     return (
       <div  className="carousel">
-        <Slider {...settings}>
+        <Slider fade {...settings} >
           <div>
           <img
 
