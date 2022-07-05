@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import {MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from 'react-icons/md';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import styled from "styled-components";
-import CardStyles from "./Slidermain";
+import CardContent from "./Slidermain";
 
 const SlidersStyles=styled.div`
  margin: 40px 0;
@@ -115,43 +115,43 @@ export default class SwipeToSlide extends Component {
     };
     return (
         <SlidersStyles>
-        <a href="/" className="Slider_heading">
+        <a href="/all" className="Slider_heading">
           All Blogs Are Here
           <HiArrowNarrowRight className="headicon"/>
         </a>
         <Slider {...settings} className="slicker" >
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />          
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />          
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />          
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />  
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />          
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />          
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />          
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />
-        <CardStyles />         
+        <CardContent />
+        <CardContent />
+        <CardContent />
+        <CardContent />          
+        <CardContent />
+        <CardContent />
+        <CardContent />
+        <CardContent />          
+        <CardContent />
+        <CardContent />
+        <CardContent />
+        <CardContent />          
+        <CardContent />
+        <CardContent />
+        <CardContent />
+        <CardContent />  
+        <CardContent />
+        <CardContent />
+        <CardContent />
+        <CardContent />          
+        <CardContent />
+        <CardContent />
+        <CardContent />
+        <CardContent />          
+        <CardContent />
+        <CardContent />
+        <CardContent />
+        <CardContent />          
+        <CardContent />
+        <CardContent />
+        <CardContent />
+        <CardContent />         
         </Slider>
         </SlidersStyles>
        );

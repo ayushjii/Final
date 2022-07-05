@@ -8,6 +8,7 @@ import { Contact } from "./components/Pages/Contact";
 import { Footer } from "./components/Footer";
 import Signin from "./components/Signin";
 import Signup from "./components/Signup.js";
+import Allitem from "./components/Allitems";
 
 
  export default function App() {
@@ -22,6 +23,7 @@ import Signup from "./components/Signup.js";
             <Route path="/contact" element={<Contact/>} />
             <Route path="/Signin" element={<Signin/>} />
             <Route path="/Signup" element={<Signup/>} />
+            <Route path="/all" element={<Allitem/>} />
           </Routes>
         </div>
         <Footer/>

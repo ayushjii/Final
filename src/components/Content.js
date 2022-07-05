@@ -4,6 +4,8 @@ import Searchbar from "./webbody/Searchbar";
 import HomeCarousel from "./webbody/Carousel";
 import Cards from "./webbody/Cards";
 import Signacc from "./webbody/Signin-up";
+import CounterHome from "./webbody/Counter";
+
 function content() {
     return(
         <div>
@@ -11,9 +13,13 @@ function content() {
             <Searchbar />
             <Cards/>
             <HomeCarousel />
-            table of 3 animation
+            <CounterHome />
+            <div>
             add more items 
+            </div>
+            <div>
             support us
+            </div>
           </div>
     );
 }

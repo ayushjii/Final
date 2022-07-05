@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Slidercontent =styled.div`
+const SliderStyles =styled.div`
     width: 100%;
     display: flex;
     display: -webkit-flex;
@@ -103,15 +103,14 @@ const Slidercontent =styled.div`
 }
 `
 
-export default function CardStyles ({
+export default function CardContent ({
     CardSubheading="hello ",
     CardHeading="make here",
     CardDetail="anythink about that",
     CardImage='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYtfZRhbGQtq2BapB2MXJfWIO2QriO5Wx3qQ&usqp=CAU'
 }){
     return(
-        <Slidercontent>
-         {/* <section class="cards"> */}
+        <SliderStyles>
 <article class="card card--1">
   <div class="card__img"></div>
   <a href="/" class="card_link">
@@ -123,7 +122,6 @@ export default function CardStyles ({
 <span class="card__by card__detail" title="detail">{CardDetail}</span>
   </div>
 </article>
-    {/* </section> */}
-        </Slidercontent>
+        </SliderStyles>
     );
 }

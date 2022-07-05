@@ -100,7 +100,7 @@ transition-duration: .75s ;
   40%{transform: rotate(-15 deg);}
 }
 
-${'' /* @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
   .icons{
     flex-direction: row ;
       gap: 3rem;
@@ -108,7 +108,7 @@ ${'' /* @media only screen and (max-width: 768px){
         margin-top: 5rem;
       }
   }
-} */}
+} 
 `;
 
 export default function Socialmedia(){
