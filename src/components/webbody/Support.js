@@ -14,6 +14,7 @@ export default function Support(){
             heading='Support us'
             />
             <span>VIA</span>
+            {/* <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JqEusCRnZ3NkgA" async> </script> </form> */}
         </SupportStyles>
     );
 }
@@ -22,5 +23,3 @@ export default function Support(){
 
 
 
-
-{/* <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JqEusCRnZ3NkgA" async> </script> </form> */}
