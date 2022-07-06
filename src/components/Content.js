@@ -5,6 +5,7 @@ import HomeCarousel from "./webbody/Carousel";
 import Cards from "./webbody/Cards";
 import Signacc from "./webbody/Signin-up";
 import CounterHome from "./webbody/Counter";
+import Moreitems from "./webbody/AddMore";
 
 function content() {
     return(
@@ -14,9 +15,7 @@ function content() {
             <Cards/>
             <HomeCarousel />
             <CounterHome />
-            <div>
-            add more items 
-            </div>
+            <Moreitems />
             <div>
             support us
             </div>
