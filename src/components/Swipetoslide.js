@@ -135,23 +135,12 @@ export default class SwipeToSlide extends Component {
         <CardContent />
         <CardContent />
         <CardContent />
-        <CardContent />  
-        <CardContent />
-        <CardContent />
         <CardContent />
         <CardContent />          
         <CardContent />
         <CardContent />
         <CardContent />
-        <CardContent />          
-        <CardContent />
-        <CardContent />
-        <CardContent />
-        <CardContent />          
-        <CardContent />
-        <CardContent />
-        <CardContent />
-        <CardContent />         
+        <CardContent />        
         </Slider>
         </SlidersStyles>
        );

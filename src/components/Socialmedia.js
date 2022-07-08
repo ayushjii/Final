@@ -94,10 +94,10 @@ transition-duration: .75s ;
     outline-color: #a02d76;
 }
 @keyframes shake {
-  10%{transform: rotate(15 deg);}
-  20%{transform: rotate(-15 deg);}
-  30%{transform: rotate(15 deg);}
-  40%{transform: rotate(-15 deg);}
+  10%{transform: rotate(15deg);}
+  20%{transform: rotate(-15deg);}
+  30%{transform: rotate(15deg);}
+  40%{transform: rotate(-15deg);}
 }
 
 @media only screen and (max-width: 768px){

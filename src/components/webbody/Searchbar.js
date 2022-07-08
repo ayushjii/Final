@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-// import "./searchbar.css";
 
 const SearchStyles =styled.div`
 ${'' /* margin: 5rem 0 ; */}
