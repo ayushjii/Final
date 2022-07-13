@@ -81,8 +81,8 @@ export default function FooterMain() {
             heading="Important Links"
             links={[
               {
-                title: 'Home',
                 type: 'Link',
+                title: 'Home',
                 path: '',
               },
               {
@@ -149,10 +149,7 @@ export default function FooterMain() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © {year} - Ayush Goyal | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="mailto:pawangoyal6789.com">
-            KRPKG
-            </a>{' '}
+            © {year} - KRPKG  | Designed By Ayush Goyal
           </PText>
         </div>
       </div>
