@@ -9,7 +9,8 @@ import { Footer } from "./components/Footer";
 import Signin from "./components/Signin";
 import Signup from "./components/Signup.js";
 import Allitem from "./components/Allitems";
-import Thought from "./components/Thoughts";
+import ThoughtMain from "./components/Thoughtmain";
+
 
 
  export default function App() {
@@ -32,7 +33,7 @@ import Thought from "./components/Thoughts";
             <Route path="/Signin" element={<Signin/>} />
             <Route path="/Signup" element={<Signup/>} />
             <Route path="/all" element={<Allitem/>} />
-            <Route path="/all/dis" element={<Thought/>} />
+            <Route path="/all/dis" element={<ThoughtMain/>} />
           </Routes>
         </div>
         <Footer/>
