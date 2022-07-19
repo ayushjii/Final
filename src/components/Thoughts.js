@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Compose from './Compose';
 
 const ThoughtStyles = styled.div`
 margin: 5rem 10rem;
@@ -63,7 +64,9 @@ export default function Thought (
           <img className='dis_image' src={CardImage}  alt=""/>
             
           </div>
+          
         </div>
+          <Compose />
         </ThoughtStyles>
     );
 }
