@@ -111,9 +111,9 @@ export default function CardContent ({
 }){
     return(
         <SliderStyles>
-<article class="card card--1">
+<article  class="card card--1">
   <div class="card__img"></div>
-  <a href="/" class="card_link">
+  <a href="/all/dis" class="card_link">
      <img class="card__img--hover" src={CardImage}  alt=""/>
    </a>
   <div class="card__info">
